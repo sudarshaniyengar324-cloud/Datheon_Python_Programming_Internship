@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Datheon Python Programming Internship – Hangman Game
 
 ## Project Overview
@@ -102,3 +103,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 ## Screenshots
 *Add screenshots of the game in action here after you run it.*
+=======
+# Datheon_Python_Programming_Internship
+Python projects developed for the Datheon Python Programming Internship.
+>>>>>>> origin/main
