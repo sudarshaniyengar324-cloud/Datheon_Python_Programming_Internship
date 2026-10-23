@@ -57,6 +57,30 @@ Datheon_Python_Programming_Internship/
 ├── LICENSE
 └── README.md
 ```
+### Task 3: Automated File Organizer & Cleanup Utility
+
+A Python utility that automatically organizes files into folders based on their file extensions.
+
+**Features**
+- Categorizes files into Documents, Images, Videos, Archives, Code, and Other.
+- Provides a dry-run mode to preview changes before moving files.
+- Avoids overwriting files with duplicate names.
+- Handles invalid paths and filesystem errors.
+- Displays a summary of moved, skipped, and failed files.
+- Includes automated unit tests.
+
+**Run the project**
+```powershell
+python .\task3\organizer.py
+```
+
+**Run the tests**
+```powershell
+python -m unittest discover -s task3\tests -v
+```
+
+**Safety:** Test with a sample directory and preview planned changes before organizing real files. The utility processes files in the selected directory's top level.
+
 
 ## Technologies
 - Python
